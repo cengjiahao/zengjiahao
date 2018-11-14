@@ -13,6 +13,7 @@
 		24555C68219BA9C700B13512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24555C67219BA9C700B13512 /* Assets.xcassets */; };
 		24555C6B219BA9C700B13512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24555C69219BA9C700B13512 /* LaunchScreen.storyboard */; };
 		24555C6E219BA9C700B13512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24555C6D219BA9C700B13512 /* main.m */; };
+		24555C7D219BC32400B13512 /* zengjiahao.m in Sources */ = {isa = PBXBuildFile; fileRef = 24555C7C219BC32400B13512 /* zengjiahao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		24555C6A219BA9C700B13512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24555C6C219BA9C700B13512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24555C6D219BA9C700B13512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24555C7B219BC32400B13512 /* zengjiahao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zengjiahao.h; sourceTree = "<group>"; };
+		24555C7C219BC32400B13512 /* zengjiahao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zengjiahao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,21 @@
 				24555C5F219BA9C200B13512 /* AppDelegate.m */,
 				24555C61219BA9C200B13512 /* ViewController.h */,
 				24555C62219BA9C200B13512 /* ViewController.m */,
+				24555C7A219BC31300B13512 /* zengjiahao */,
 				24555C64219BA9C200B13512 /* Main.storyboard */,
 				24555C67219BA9C700B13512 /* Assets.xcassets */,
 				24555C69219BA9C700B13512 /* LaunchScreen.storyboard */,
 				24555C6C219BA9C700B13512 /* Info.plist */,
 				24555C6D219BA9C700B13512 /* main.m */,
+			);
+			path = zengjiahao;
+			sourceTree = "<group>";
+		};
+		24555C7A219BC31300B13512 /* zengjiahao */ = {
+			isa = PBXGroup;
+			children = (
+				24555C7B219BC32400B13512 /* zengjiahao.h */,
+				24555C7C219BC32400B13512 /* zengjiahao.m */,
 			);
 			path = zengjiahao;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 				24555C63219BA9C200B13512 /* ViewController.m in Sources */,
 				24555C6E219BA9C700B13512 /* main.m in Sources */,
 				24555C60219BA9C200B13512 /* AppDelegate.m in Sources */,
+				24555C7D219BC32400B13512 /* zengjiahao.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

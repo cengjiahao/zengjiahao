@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface zengjiahao : UITextField
 -(void)setup;
+-(void)setup22222;
 @end
 
 NS_ASSUME_NONNULL_END

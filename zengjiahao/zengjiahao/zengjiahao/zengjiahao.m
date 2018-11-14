@@ -12,6 +12,9 @@
 -(void)setup{
     
 }
+-(void)setup22222{
+    NSLog(@"xxxxx");
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
