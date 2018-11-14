@@ -9,7 +9,9 @@
 #import "zengjiahao.h"
 
 @implementation zengjiahao
-
+-(void)setup{
+    
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
